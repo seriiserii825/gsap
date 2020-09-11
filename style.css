@@ -54,6 +54,10 @@ body {
     align-items: center;
     margin-bottom: 780px;
     padding: 30px;
+    width: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
     background-color: deeppink;
 }
 .box:nth-of-type(2) {

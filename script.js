@@ -30,6 +30,15 @@ const tl = gsap.timeline();
 
 tl.to('.liberty', {duration: 1, scale: 1.2}).to('.car', {duration: 1, x: -400}).to('.circle', {x: -10});
 
-gsap.to('.a', {
-
+gsap.to('.c', {
+	width: "100%",
+	duration: 2,
+	scrollTrigger: {
+		trigger: ".c",
+		start: "top 80%",
+		end: "botom 300px",
+		scrub: 1,
+		markers: true,
+		toggleActions: "play none reverse pause",
+	}
 });
