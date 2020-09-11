@@ -35,3 +35,30 @@ body {
 .car {
     width: 100px;
 }
+.menu {
+    display: flex;
+}
+.menu a {
+    display: block;
+    margin-right: 60px;
+    color: white;
+}
+.box-wrapper {
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 780px;
+    padding: 30px;
+    background-color: deeppink;
+}
+.box:nth-of-type(2) {
+    background-color: darkgreen;
+}
+.box:nth-of-type(2) {
+    background-color: deepskyblue;
+}

@@ -30,3 +30,6 @@ const tl = gsap.timeline();
 
 tl.to('.liberty', {duration: 1, scale: 1.2}).to('.car', {duration: 1, x: -400}).to('.circle', {x: -10});
 
+gsap.to('.a', {
+
+});
