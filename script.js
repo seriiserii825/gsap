@@ -25,6 +25,8 @@ const tl = gsap.timeline();
 //     duration: 4,
 //     ease: "elastic"
 // }, "-=2");
-tl.fromTo(".car", {x: -100, skewX: 0}, {duration: 3.5, x: -1400, skewX: "-10px", ease: "power4" });
-tl.fromTo(".car", {x: -1400, skewX: 0}, {duration: .5, x: -1500, skewX: "10px", ease: "slow"});
+// tl.fromTo(".car", {x: -100, skewX: 0}, {duration: 3.5, x: -1400, skewX: "-10px", ease: "power4" });
+// tl.fromTo(".car", {x: -1400, skewX: 0}, {duration: .5, x: -1500, skewX: "10px", ease: "slow"});
+
+tl.to('.liberty', {duration: 1, scale: 1.2}).to('.car', {duration: 1, x: -400}).to('.circle', {x: -10});
 

@@ -11,9 +11,7 @@ body {
     min-width: 1400px;
 }
 .liberty {
-    transform: translateY(-300px);
     width: 200px;
-    opacity: 0;
 }
 .circle  {
     margin-left: 60px;
