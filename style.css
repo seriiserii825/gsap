@@ -1,0 +1,12 @@
+body {
+    color: white;
+    background-color: #333;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    opacity: 1;
+}
