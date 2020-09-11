@@ -1,14 +1,30 @@
-gsap.to('.title', {
-    duration: 2,
-    y: 200,
-    opacity: 1,
-    backgroundColor: "#c32",
-    ease: "circ"
-});
-gsap.to('.title span', {
-    duration: 1,
-    padding: "20px",
-    textShadow: "2px 2px 4px rgba(0,0,0,.2)",
-    delay: 2,
-    scale: 1.3
-});
+const tl = gsap.timeline();
+
+// tl.to('.liberty', {
+//     y: 0,
+//     scaleY: .4,
+//     opacity: 1,
+//     duration: 1
+// });
+//
+// tl.from('.liberty', {
+//     scaleY: .4,
+//     transformOrigin: "center bottom",
+//     duration: 1
+// });
+// tl.to('.liberty', {
+//     scaleY: 1,
+//     transformOrigin: "center bottom",
+//     duration: 1
+// });
+//
+// tl.from('.circle', {
+//     opacity: 0,
+//     stagger: .25,
+//     y: "random(-200, 200)",
+//     duration: 4,
+//     ease: "elastic"
+// }, "-=2");
+tl.fromTo(".car", {x: -100, skewX: 0}, {duration: 3.5, x: -1400, skewX: "-10px", ease: "power4" });
+tl.fromTo(".car", {x: -1400, skewX: 0}, {duration: .5, x: -1500, skewX: "10px", ease: "slow"});
+
